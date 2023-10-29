@@ -1,0 +1,297 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background: #55ffe5;
+}
+h1{
+    
+    font-size: 6vh;
+}
+h2{
+    font-size: 27px;
+    padding-top: 2vh;
+}
+h3 {
+    font-size: 60vh;
+    color: blue;
+}
+p{
+  font-size: 3vh;
+ padding-bottom: 1.5vw;
+ padding-top: 1.5vw;;
+}
+article{
+    width: 74%;
+}
+aside{
+    width: 26%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;;
+}
+#famouspage1pic {
+    max-width: 93%;
+    max-height: 100%;;
+}#famouspage2pic {
+    max-width: 93%;
+    max-height: 100%;;
+}#famouspage3pic {
+    max-width: 93%;
+    max-height: 100%;;
+}
+
+.topheader{
+    height: 25vh;
+    width: 100%;
+}
+.logo{
+    height: 100%;
+    width: auto;
+}
+.toptopheader{
+    height: 65%;
+    width: 100%;
+    display: flex;
+}
+.toptopheader section{
+    color: white;
+    font-size: 3vw;
+background-image: url(./images/Homeheader.png);
+background-size: 100% 100%;
+height: 100%;
+width: 100%;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+nav {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 35%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    color:black;
+}
+
+
+.HomepageH1{
+    text-align: left;
+    width: 75%;
+}
+.homepageText1 {
+    text-align: left;
+}
+
+.HomepageFooter{
+    order: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+
+}
+.navfooter {
+    order: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+footer {
+    height: 20vh;
+    overflow: hidden;
+    background-color: black;
+    
+  color: white;
+}
+.referral
+{
+    text-align: center;
+  padding: 3px;
+  flex: auto;
+  color: white;
+}
+.Homepage3pic{
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#Homepage4pic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Historypagelist{
+    margin: 0;
+    padding: revert;
+    font-size: 3vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.Famouspagetext1{
+    text-align: left;
+    font-size: 18px;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+}
+.Famouspagetext1-2{
+    text-align: left;
+    font-size: 18px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.Famouspagetext1-3{
+    text-align: left;
+    font-size: 18px;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+}
+.Famouspagetext1-4{
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 2vh;
+    padding-bottom: 4vh;
+}
+.Famouspagetext2-1{
+    text-align: left;
+    font-size: 18px;
+    padding-top: 4vh;
+}
+.Famouspagetext2-2{
+    text-align: left;
+    font-size: 18px;
+    padding-top: 8vh;
+    padding-bottom: 12vh;
+}
+.Famouspagetext3-1{
+    text-align: left;
+    font-size: 18px;
+}.Famouspagetext3-2{
+    text-align: left;
+    font-size: 18px;
+    padding-top: 2vh;
+}
+.famouspageh2Train{
+    font-size: 27px;
+    padding-top: 10vh;
+}
+.listsportclubs{
+    margin: 0;
+    padding: revert;
+    font-size: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh
+}
+#sportpage1pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+#sportpage2pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+#sportpage3pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 0px;
+}
+#sportpage4pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.activitiesweeklist{
+    font-size: 20px;
+}
+#activitiespage1pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}#activitiespage2pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}#activitiespage3pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 160px;
+    padding-bottom: 50px;
+}#activitiespage4pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}#activitiespage5pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}#activitiespage6pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.refferallist{
+    font-size: 20px;
+}
+.star{
+    max-width: 5%;
+    max-height: 100%;
+    padding-left: 15px;
+}
+.listsrestaurants{
+    margin: 0;
+    padding: revert;
+    font-size: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+#Hiddengems1pic{
+    padding-top: 175px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 285px;
+}
+#Hiddengems2pic{
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 200px;
+}
+.lasttexthiddengems1{
+    text-align: left;
+    padding-top: 155px;
+    padding-bottom: 150px;
+}
+.lasttexthiddengems2{
+    text-align: left;
+    padding-bottom: 150px;
+}
